@@ -13,7 +13,8 @@ I am responsible and purposeful person. One day I decided to connect my life wit
 * Basic knowledge of C and C++
 
 ## Code Example
-```function sub(a,b){
+```
+function sub(a,b){
     if (a>b){
         return a-b;
     } else return b-a; 
