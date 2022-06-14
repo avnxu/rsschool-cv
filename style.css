@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("assets/fonts/Montserrat-VariableFont_wght.ttf")
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.4;
+    background-color: #adc395;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px #c6d0c5;
+  }
+    
+.two-columns {
+    display: flex;
+}
+
+.left-column {
+    width: 40%;
+    background-color:#e3f2d1;
+    color: #2a3b29;
+    text-align: center;
+}
+
+.right-column {
+    width: 60%;
+    background-color: #fff9f2;
+    padding: 30px;
+}
+
+.avatar {
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: 300px;
+  
+  }
+
+.main-section-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+.bold {
+    font-weight: bold;
+  }
+
+.contacts-list {
+    list-style: none;
+    line-height: 40px;
+    position: relative;
+    right: 15px;
+
+  }
+
+.section-title {
+    border-bottom: 2px solid #adc395;
+}
+
+.link {
+    color: #873750;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #e3f2d1;
+  }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.nav-link {
+    padding: 0 45px;
+    line-height: 60px;
+    transition: .3s;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.nav-item a {
+    color: #2a3b29;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+.nav-item a:hover {
+    color: #873750;
+  }
+
+
+
+.git-logo {
+    position: relative;
+    top: 13px;
+    width: 60px;
+    height: 60px;
+  }
+
+.rs-logo {
+    position: relative;
+    top: 13px;
+    width: 150px;
+    height: 60px;
+
+  }
+
+.foot-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #e3f2d1;
+  }
+
+.foot-link {
+    padding: 0 300px;
+    line-height: 60px;
+    transition: .3s;
+    text-decoration: none;
+  }
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
